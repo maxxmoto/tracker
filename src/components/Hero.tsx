@@ -15,9 +15,14 @@ export const Hero: React.FC = () => {
         </p>
         <h1 className="font-anton text-[16vw] md:text-[12vw] leading-[0.8] uppercase tracking-tighter overflow-hidden">
           <span className="block hero-title-1">НИКАКИХ</span>
-          <span className="relative inline-block text-white mt-2 md:mt-4 hero-title-2">
-            ОТМАЗОК.
-            <span className="absolute left-0 top-[60%] w-[110%] h-[0.12em] bg-accent -translate-y-1/2 -rotate-2 -ml-[5%]"></span>
+          <span className="relative inline-block mt-2 md:mt-4 hero-title-2">
+            <span className="absolute inset-0 text-[#09090b] translate-y-1.5 md:translate-y-3 -translate-x-1 md:-translate-x-2 select-none" aria-hidden="true">
+              ОТМАЗОК.
+            </span>
+            <span className="relative text-white">
+              ОТМАЗОК.
+              <span className="absolute left-0 top-[60%] w-[110%] h-[0.12em] bg-accent -translate-y-1/2 -rotate-2 -ml-[5%]"></span>
+            </span>
           </span>
         </h1>
         <div className="max-w-4xl mx-auto pt-6 md:pt-12">

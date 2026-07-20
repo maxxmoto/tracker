@@ -12,7 +12,7 @@ export const Header: React.FC = () => {
           className="w-8 h-8 md:w-10 md:h-10 invert shrink-0"
         />
         <span className="font-anton text-lg md:text-2xl tracking-widest uppercase truncate">
-          ФУДКОРТ
+          .eat
         </span>
       </div>
       <div className="hidden md:flex gap-8 font-bold uppercase text-sm tracking-widest">
