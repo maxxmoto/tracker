@@ -1,9 +1,10 @@
 const CACHE = "foodcourt-v1";
 const ASSETS = [
-  "/",
-  "/index.html",
-  "/icon.svg",
-  "/favicon.svg"
+  "./",
+  "./index.html",
+  "./icon-192.png",
+  "./icon-512.png",
+  "./favicon-48.png"
 ];
 
 self.addEventListener("install", (e) => {
