@@ -1,0 +1,14 @@
+{
+  "name": "ФУДКОРТ — Трекер питания",
+  "short_name": "ФУДКОРТ",
+  "description": "3 приема пищи. Без сладкого. Без перекусов. Дефицит калорий.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#ffdd2d",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "512x512", "type": "image/svg+xml", "purpose": "any maskable" },
+    { "src": "/icon.svg", "sizes": "192x192", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
