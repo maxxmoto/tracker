@@ -78,7 +78,10 @@ export const PenaltyOverlay: React.FC<PenaltyOverlayProps> = ({ isOpen, onClose 
         </div>
 
         <a
-          href="https://www.tbank.ru/"
+          href="tinkoffbank://"
+          onClick={() => {
+            setTimeout(() => { window.location.href = "https://www.tbank.ru/"; }, 500);
+          }}
           target="_blank"
           rel="noopener noreferrer"
           className="w-full bg-black text-accent font-anton text-2xl md:text-5xl py-6 md:py-8 hover:bg-zinc-900 transition-all flex items-center justify-center gap-4 md:gap-6 group cursor-pointer border-b-4 md:border-b-8 border-white/20 no-underline"
